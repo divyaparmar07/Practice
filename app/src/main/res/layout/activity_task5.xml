@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    tools:context=".Task5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <!-- CardView   -->
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                android:layout_weight="1"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:textSize="20dp"
+                        android:padding="20dp"
+                        android:paddingTop="15dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/a"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="@string/a"
+                        android:textAlignment="center" />
+                    <!--                    <Button-->
+                    <!--                        android:layout_width="60dp"-->
+                    <!--                        android:layout_height="60dp"-->
+                    <!--                        android:layout_marginTop="10dp"-->
+                    <!--                        android:layout_gravity="center"-->
+                    <!--                        android:background="@drawable/oval"-->
+                    <!--                        android:text="@string/a1" />-->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:background="#ededed" />
+
+                    <TextView
+                        android:id="@+id/tt_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="VITAMIN A"
+                        android:textAlignment="center"
+                        android:textColor="#757575"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                android:layout_weight="1"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/b1"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:textSize="20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/b1"
+                        android:paddingTop="15dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="B1"
+                        android:textAlignment="center" />
+<!--                    <Button-->
+<!--                        android:layout_width="60dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:background="@drawable/oval"-->
+<!--                        android:text="B1" />-->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="#ededed" />
+
+                    <TextView
+                        android:id="@+id/text_descrtion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#757575"
+                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:text="VITAMIN B1" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                android:layout_weight="1"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/b2"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:textSize="20dp"
+                        android:paddingTop="15dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/b2"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="B2"
+                        android:textAlignment="center" />
+
+<!--                    <Button-->
+<!--                        android:layout_width="60dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:background="@drawable/oval"-->
+<!--                        android:text="B2" />-->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="#ededed" />
+
+                    <TextView
+                        android:id="@+id/text_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#757575"
+                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:text="VITAMIN B2" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                android:layout_weight="1"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/b3"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:textSize="20dp"
+                        android:paddingTop="15dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/b3"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="B3"
+                        android:textAlignment="center" />
+
+<!--                    <Button-->
+<!--                        android:layout_width="60dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:background="@drawable/oval"-->
+<!--                        android:text="B3" />-->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="#ededed" />
+
+                    <TextView
+                        android:id="@+id/text_dcription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#757575"
+                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:text="VITAMIN B3" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                android:layout_weight="1"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/b5"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:textSize="20dp"
+                        android:paddingTop="15dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/b5"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="B5"
+                        android:textAlignment="center" />
+<!--                    <Button-->
+<!--                        android:layout_width="60dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:background="@drawable/oval"-->
+<!--                        android:text="B5" />-->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="#ededed" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#757575"
+                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:text="VITAMIN B5" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                android:layout_weight="1"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/b6"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:textSize="20dp"
+                        android:paddingTop="15dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/b6"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="B6"
+                        android:textAlignment="center" />
+<!--                    <Button-->
+<!--                        android:layout_width="60dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:background="@drawable/oval"-->
+<!--                        android:text="B6" />-->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="#ededed" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#757575"
+                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:text="VITAMIN B6" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                android:layout_weight="1"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/b7"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:textSize="20dp"
+                        android:paddingTop="15dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/b7"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="B7"
+                        android:textAlignment="center" />
+<!--                    <Button-->
+<!--                        android:layout_width="60dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:background="@drawable/oval"-->
+<!--                        android:text="B7" />-->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="#ededed" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#757575"
+                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:text="VITAMIN B7" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                android:layout_weight="1"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/b9"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:textSize="20dp"
+                        android:paddingTop="15dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/b9"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="B9"
+                        android:textAlignment="center" />
+<!--                    <Button-->
+<!--                        android:layout_width="60dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:background="@drawable/oval"-->
+<!--                        android:text="B9" />-->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="#ededed" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#757575"
+                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:text="VITAMIN B9" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                android:layout_weight="1"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/b12"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:textSize="20dp"
+                        android:paddingTop="15dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/b12"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="B12"
+                        android:textAlignment="center" />
+
+<!--                    <Button-->
+<!--                        android:layout_width="60dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:textSize="13dp"-->
+<!--                        android:background="@drawable/oval"-->
+<!--                        android:text="B12" />-->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="#ededed" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#757575"
+                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:text="VITAMIN B12" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                android:layout_weight="1"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:textSize="20dp"
+                        android:paddingTop="15dp"
+                        android:padding="20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/c"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="C"
+                        android:textAlignment="center" />
+<!--                    <Button-->
+<!--                        android:layout_width="60dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:background="@drawable/oval"-->
+<!--                        android:text="C" />-->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="#ededed" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#757575"
+                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:text="VITAMIN C" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                android:layout_weight="1"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:textSize="20dp"
+                        android:paddingTop="15dp"
+                        android:padding="20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/ch"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="Ch"
+                        android:textAlignment="center" />
+<!--                    <Button-->
+<!--                        android:layout_width="60dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:background="@drawable/oval"-->
+<!--                        android:text="@string/ch" />-->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="#ededed" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#757575"
+                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:text="CHOLINE" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                android:layout_weight="1"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:textSize="20dp"
+                        android:paddingTop="15dp"
+                        android:padding="20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/d"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="D"
+                        android:textAlignment="center" />
+<!--                    <Button-->
+<!--                        android:layout_width="60dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:background="@drawable/oval"-->
+<!--                        android:text="D" />-->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="#ededed" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#757575"
+                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:text="VITAMIN D" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                android:layout_weight="1"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:textSize="20dp"
+                        android:paddingTop="15dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/e"
+                        android:padding="20dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="E"
+                        android:textAlignment="center" />
+
+<!--                    <Button-->
+<!--                        android:layout_width="60dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:background="@drawable/oval"-->
+<!--                        android:text="E" />-->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="#ededed" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#757575"
+                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:text="VITAMIN E" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                android:layout_weight="1"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:textSize="20dp"
+                        android:paddingTop="15dp"
+                        android:padding="20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/k"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="K"
+                        android:textAlignment="center" />
+<!--                    <Button-->
+<!--                        android:layout_width="60dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:background="@drawable/oval"-->
+<!--                        android:text="K" />-->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:background="#ededed" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="VITAMIN K"
+                        android:textAlignment="center"
+                        android:textColor="#757575"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <!-- CardView   -->
+
+    </ScrollView>
+</LinearLayout>
